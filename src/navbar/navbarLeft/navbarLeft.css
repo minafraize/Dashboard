@@ -1,0 +1,24 @@
+.logo-cont{
+    display: flex;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 100px;
+}
+.logo .online{
+    width: 20px;
+    height: 20px;
+    background: #45c745;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 19px;
+}
+.logo-cont .site-name h5{
+    font-weight: 700;
+}
+.logo-cont .site-name p{
+    color: #bfbfbf;
+}

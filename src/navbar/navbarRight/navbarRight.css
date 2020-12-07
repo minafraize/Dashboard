@@ -1,0 +1,23 @@
+.basket{
+    margin-top: 24px;
+}
+.basket .shopping-bag-number{
+    position: relative;
+    float: right;
+}
+.basket i{
+    font-size: 30px;
+}
+.basket .shopping-bag-number span{
+    position: absolute;
+    top: -15px;
+    right: -14px;
+    background: #993338;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    line-height: 24px;
+}
+.basket .help{
+    float: right;
+}
