@@ -1,0 +1,43 @@
+.transfer {
+    margin: 50px 0;
+}
+
+.transfer ul li {
+    font-size: 20px;
+    color: #fff;
+}
+
+.transfer ul li .icon {
+    color: #01a9f4;
+}
+
+.transfer ul li em {
+    color: #898a94;
+    font-size: 16px;
+}
+
+.transfer ul li button {
+    margin: 18px 0 0 50px;
+}
+
+/* ======= Media Query ======= */
+
+@media screen and (max-width: 1257px) {
+    .transfer ul li {
+        font-size: 17px;
+    }
+    .transfer ul li button {
+        margin: 18px 0 0 15px;
+        padding: 15px 35px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .transfer ul li {
+        font-size: 15px;
+    }
+    .transfer ul li button {
+        margin: 18px 0 0 15px;
+        padding: 15px 25px;
+    }
+}

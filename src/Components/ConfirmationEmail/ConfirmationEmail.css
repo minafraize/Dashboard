@@ -1,0 +1,25 @@
+.Confirmation .done-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 81px;
+    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 auto 30px;
+    background: #385979;
+    color: #63f4f7;
+    text-align: center;
+}
+
+.Confirmation .confirm-sent, .Confirmation .check-confirm, .Confirmation .options {
+    font-size: 18px;
+}
+
+.Confirmation .check-confirm {
+    color: #7b7fa7;
+}
+
+.Confirmation .confirm-sent span, .Confirmation .options span {
+    color: #13a5e0;
+    text-decoration: underline;
+    cursor: pointer;
+}

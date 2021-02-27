@@ -1,0 +1,89 @@
+.notifications {
+    margin-top: 50px;
+}
+
+.notifications .user-info {
+    overflow: hidden;
+}
+
+.notifications .user-info .notifications-icon, .notifications .user-info .user-account, .notifications .user-info .options {
+    float: right;
+}
+
+.notifications .user-info .options, .notifications .user-info .user-account {
+    cursor: pointer;
+}
+
+.notifications .user-info .options {
+    margin-top: 20px;
+}
+
+.notifications .user-info .user-account {
+    margin: 8px 20px 0 0;
+}
+
+.notifications .user-info .user-account img {
+    width: 50px;
+    height: 50px;
+}
+
+.notifications .user-info .user-account .user-email {
+    margin-left: 15px;
+}
+
+.notifications .user-info .user-account .user-email span {
+    color: #898a94;
+}
+
+.notifications .user-info .notifications-icon {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #3a3e5f;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+}
+
+.notifications .user-info .notifications-icon:hover {
+    background-color: #01a9f4;
+    border-color: #01a9f4;
+}
+
+.notifications .user-info .notifications-icon .noti-alert {
+    position: absolute;
+    top: -1px;
+    right: -12px;
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fe7448;
+}
+
+.notifications .notifications-dropdown {
+    border: 0;
+    right: 131px;
+    top: 125px;
+    max-width: 350px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    -webkit-box-shadow: 0 3px 12px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 12px #292c51;
+    transition: all 0.3s ease-in-out;
+}
+
+.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.close-noti {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(60px);
+}

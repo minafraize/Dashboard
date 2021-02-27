@@ -1,0 +1,45 @@
+.lic-key {
+    margin: 50px 0;
+}
+
+.lic-key ul li:first-of-type {
+    color: #898a94;
+}
+
+.lic-key ul li span {
+    color: #fff;
+    font-size: 21px;
+    text-transform: none;
+}
+
+.lic-key ul .lic-key-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 25px 0 0px 200px;
+    background: #2e4d66;
+    color: #5cdfe5;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ======= Media Query ======= */
+
+@media screen and (max-width: 1257px) {
+    .lic-key ul .lic-key-icon {
+        margin: 25px 0 0px 110px;
+    }
+    .lic-key .renew {
+        padding: 15px 20px;
+    }
+    .lic-key .default {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .lic-key .renew {
+        padding: 15px 20px;
+    }
+}

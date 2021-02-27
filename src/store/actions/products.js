@@ -1,5 +1,5 @@
 import * as actionTypes from './actionTypes'
-import axios from '../../api/api';
+import axios from '../../axiosInstance';
 
 export const startProducts = () => {
     return {
@@ -21,24 +21,16 @@ export const fetchProductsFail = (error) => {
     }
 }
 
-
 // Fetch Data
 export const initProducts = () => {
     return dispatch => {
         dispatch(startProducts())
-        axios.get('foods')
+        axios.get('products')
         .then( res => {
             dispatch(setProducts(res.data))
         })
         .catch(err => {
             dispatch(fetchProductsFail(err))
         })
-    }
-}
-
-// Toggle Menu
-export const ToggleMenu = () => {
-    return {
-        type: actionTypes.TOGGLE_MEUN
     }
 }

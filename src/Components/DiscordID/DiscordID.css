@@ -1,0 +1,29 @@
+.discord {
+    margin: 50px 0;
+}
+
+.discord ul li {
+    font-size: 20px;
+}
+
+.discord ul li .icon {
+    color: #01a9f4;
+}
+
+.discord ul li button {
+    margin: 6px 0 0 170px;
+}
+
+/* ======= Media Query ======= */
+
+@media screen and (max-width: 1257px) {
+    .discord ul li button {
+        margin: 6px 0 0 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .discord ul li button {
+        margin: 6px 0 0 50px;
+    }
+}

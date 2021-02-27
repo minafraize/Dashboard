@@ -1,0 +1,26 @@
+.download-app {
+    margin: 50px 0;
+}
+
+.download-app ul .download-icon {
+    padding: 19px;
+    border: 1px solid #3a3e5f;
+    text-align: center;
+    font-size: 18px;
+}
+
+.download-app ul .download-icon .icon {
+    font-size: 25px;
+}
+
+.download-app ul .download-btns {
+    font-size: 18px;
+}
+
+.download-app ul .download-btns button:first-of-type {
+    margin-bottom: 10px;
+}
+
+.download-app ul .download-btns .icon {
+    color: #19a2a3;
+}

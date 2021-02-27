@@ -1,0 +1,33 @@
+.modal {
+    text-transform: capitalize;
+}
+
+.modal .modal-content {
+    background: #2d325a;
+    border-radius: 10px;
+}
+
+.modal .modal-header {
+    border: 0;
+}
+
+.modal .modal-header .close span {
+    color: #fff;
+}
+
+.modal .modal-footer {
+    background-color: #292d52;
+    border: 0;
+}
+
+.modal .modal-footer button {
+    background: #2e325c;
+    border: 0;
+    padding: 15px 45px;
+    margin-right: 160px;
+}
+
+.modal .modal-header, .modal .modal-body .modal .modal-footer {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}

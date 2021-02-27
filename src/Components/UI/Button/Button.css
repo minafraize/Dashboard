@@ -1,0 +1,31 @@
+.button {
+    background-color: #323662;
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.default {
+    color: #a63c63;
+    margin-left: 50px;
+}
+
+.renew {
+    background-color: #01a9f4;
+    color: #fff;
+}
+
+.transfer, .transfer i {
+    color: #5cdfe5;
+}
+
+.download {
+    background-color: #1ec1c3;
+    color: #fff;
+}
+
+.download i {
+    color: #19a2a3;
+}

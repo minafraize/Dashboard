@@ -3,8 +3,7 @@ import * as actionTypes from '../actions/actionTypes';
 const initialState = {
     products: [],
     loading: false,
-    errer: false,
-    toggle: false
+    errer: false
 };
 
 const reducer = (state = initialState, action) => {
@@ -14,7 +13,6 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 loading: true,
                 error: false,
-
             }
         case actionTypes.SET_PRODUCTS:
             return {
@@ -30,13 +28,7 @@ const reducer = (state = initialState, action) => {
                 error: true,
                 products: []
             }
-        case actionTypes.TOGGLE_MEUN:
-            return {
-                ...state,
-                toggle: !state.toggle
-            }
         default: return state;
-
     }
 }
 

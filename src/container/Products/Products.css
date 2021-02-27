@@ -1,0 +1,22 @@
+
+.products table{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.products .table thead tr th:first-of-type{
+    border-radius: 10px 0 0 10px;
+}
+.products .table thead tr th:last-of-type{
+    border-radius: 0 10px 10px 0;
+}
+.products .table th{
+    padding: 1rem;
+    border: 0;
+    background-color: #2b2f55;
+}
+.products .table td{
+    padding: 1.2rem 0.75rem;
+    border-bottom: 1px solid #4d4f68;
+    border-top: 0;
+}

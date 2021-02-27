@@ -1,0 +1,24 @@
+.send-email form .email-inpt {
+    background: #252a4b;
+    border: 0;
+    padding: 25px;
+    outline: none;
+    box-shadow: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.send-email form {
+    position: relative;
+}
+
+.send-email form .send {
+    color: #fff;
+    border: 0;
+    border-radius: .25rem;
+    padding: 15px 45px;
+    background: #1ec1c3;
+    position: absolute;
+    right: 0;
+    bottom: -85px;
+}

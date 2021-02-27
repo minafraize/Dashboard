@@ -1,13 +1,25 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+
+import Notifications from './container/Notifications/Notifications'
+import ProductsDetail from  './Components/ProductsDetail/ProductsDetail';
+import UserDetail from './Components/UserDetail/UserDetail';
 import './App.css';
-import Products from './productsContainer/products/products';
-import Navbar from './navbar/navbar'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Products />
+      <Container fluid>
+        <Notifications />
+        <Row>
+          <Col lg="8">
+            <ProductsDetail />
+          </Col>
+          <Col lg="4">
+            <UserDetail />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

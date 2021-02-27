@@ -1,0 +1,44 @@
+.widgets {
+    margin-top: 50px;
+}
+
+.widgets .cardd {
+    margin-bottom: 50px;
+}
+
+.widgets .checkout-det p span, .widgets .checkout .icon-cont .icon {
+    color: #5cdfe5;
+}
+
+.widgets .checkout .icon-cont {
+    background-color: #2e4d66;
+}
+
+.widgets .failure-det p span, .widgets .failure .icon-cont .icon {
+    color: #fe7448;
+}
+
+.widgets .failure .icon-cont {
+    background-color: #4d3343;
+}
+
+.widgets p {
+    color: #898a94;
+}
+
+.widgets p span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.widgets .widget .icon-cont {
+    width: 80px;
+    height: 80px;
+    line-height: 90px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.widgets .widget .icon-cont .icon {
+    font-size: 30px;
+}

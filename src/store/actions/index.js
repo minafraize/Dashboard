@@ -1,4 +1,9 @@
 export {
-    initProducts,
-    ToggleMenu
+    initProducts
 } from './products';
+
+export {
+    toggleLicenseKey,
+    toggleNotification,
+    transferMail
+} from './UI'
